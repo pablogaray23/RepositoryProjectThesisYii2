@@ -1,0 +1,2 @@
+Estos son los principales plugins usados.
+Sólo se subirán los links de descarga, ya que los plugins se encuentran on-line por lo que no existe necesidad de subirlos completamente, y para este efecto de GitHub, no es necesario subir su contenido.
