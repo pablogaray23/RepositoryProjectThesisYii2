@@ -1,0 +1,143 @@
+2016-05-16 22:28:39 [::1][1][l5ml02favil40ebp925a037r33][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pr-antecedente/index".' in C:\xampp\htdocs\yiiAdvancedCinco\advanced\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\yiiAdvancedCinco\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pr-antecedente/...', Array)
+#1 C:\xampp\htdocs\yiiAdvancedCinco\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\yiiAdvancedCinco\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\yiiAdvancedCinco\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\yiiAdvancedCinco\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\yiiAdvancedCinco\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-16 22:28:39 [::1][1][l5ml02favil40ebp925a037r33][info][application] $_GET = [
+    'r' => 'pr-antecedente/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '6f4bb89b8e499c2fb3dca4bd0d4c0bbcc4f80b751619953442e6e2156ec3c21ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"p8DBn6ruALHvtd-hn7c5rjxWMPV1AZcA\";}'
+    'PHPSESSID' => 'l5ml02favil40ebp925a037r33'
+    '_identity' => '6edaf010f44c7cbd07789f76c88303e590c2c05dc879317f5b6498dac2bbefe0a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"R05lbW0xqRCmOY3w9M4gBJc8r5R72mIo\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yiiAdvancedCinco/advanced/backend/web/index.php?r=site%2Findex'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6f4bb89b8e499c2fb3dca4bd0d4c0bbcc4f80b751619953442e6e2156ec3c21ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22p8DBn6ruALHvtd-hn7c5rjxWMPV1AZcA%22%3B%7D; PHPSESSID=l5ml02favil40ebp925a037r33; _identity=6edaf010f44c7cbd07789f76c88303e590c2c05dc879317f5b6498dac2bbefe0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22R05lbW0xqRCmOY3w9M4gBJc8r5R72mIo%22%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter\\Driver;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\pablo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.30 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yiiAdvancedCinco/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51686'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pr-antecedente%2Findex'
+    'REQUEST_URI' => '/yiiAdvancedCinco/advanced/frontend/web/index.php?r=pr-antecedente%2Findex'
+    'SCRIPT_NAME' => '/yiiAdvancedCinco/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yiiAdvancedCinco/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463430519.169
+    'REQUEST_TIME' => 1463430519
+]
+2016-05-16 22:29:56 [::1][-][qfedfi62r8ndgjsf440r3re5e6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pr-antecedente/index".' in C:\xampp\htdocs\yiiAdvancedCinco\advanced\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\yiiAdvancedCinco\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pr-antecedente/...', Array)
+#1 C:\xampp\htdocs\yiiAdvancedCinco\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\yiiAdvancedCinco\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\yiiAdvancedCinco\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\yiiAdvancedCinco\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\yiiAdvancedCinco\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-16 22:29:56 [::1][-][qfedfi62r8ndgjsf440r3re5e6][info][application] $_GET = [
+    'r' => 'pr-antecedente/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'ac29451f30a3e20e557f73e6cce2e0795397c65ecc10f4b36c80f5b19ac2ce20a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8nVNZfjDxHuRrnO5CMVSXrzi-doey9ay\";}'
+    'PHPSESSID' => 'qfedfi62r8ndgjsf440r3re5e6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=ac29451f30a3e20e557f73e6cce2e0795397c65ecc10f4b36c80f5b19ac2ce20a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228nVNZfjDxHuRrnO5CMVSXrzi-doey9ay%22%3B%7D; PHPSESSID=qfedfi62r8ndgjsf440r3re5e6'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter\\Driver;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\pablo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.30 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yiiAdvancedCinco/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51696'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pr-antecedente%2Findex'
+    'REQUEST_URI' => '/yiiAdvancedCinco/advanced/frontend/web/index.php?r=pr-antecedente%2Findex'
+    'SCRIPT_NAME' => '/yiiAdvancedCinco/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yiiAdvancedCinco/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463430596.782
+    'REQUEST_TIME' => 1463430596
+]
