@@ -1,6 +1,12 @@
 Yii 2 Advanced Project Template
 ===============================
 
+En esta carpeta se encuentran contenidos todos los archivos PHP, JavaScript, CSS, JQuery, HTML que conforman el sistema, programación tanto FrontEnd y BackEnd, además de los plugins descargados e instalados. Entre los principales Kartik-v usado para personalizar algunas funcionalidades del sistema, AdminLte para administrar el menú del sistema de acuerdo a su perfil de usuario y FullCalendar usado para personalizar las funcionalidades con respecto a la gestión horaria del sistema.
+
+Este proyecto se desarrolló usando el Framework MVC Yii2
+
+A continuación, una introducción a la estructura de las distintas carpetas que conforman este Framework, detallado por defecto por la documentación de Yii2.
+
 Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
 
