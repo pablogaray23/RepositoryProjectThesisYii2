@@ -1,4 +1,4 @@
-"# RepositoryProjectThesisYii2" 
+"# repository-project-thesis-yii2" 
 
 Estructura del repositorio "RepositoryProjectThesisYii2":
  - Base de Datos: Carpeta que contiene el archivo SQL "clinicaBD.sql" correspondiente a la BD principal "clinicaBD" ocupada en el sistema.
